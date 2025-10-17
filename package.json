@@ -1,0 +1,31 @@
+{
+  "name": "groot-vcs",
+  "version": "2.0.0",
+  "description": "A feature-rich Git-like version control system with branching, merging, and remote simulation",
+  "type": "module",
+  "main": "groot.js",
+  "bin": {
+    "groot": "./groot.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build successful\""
+  },
+  "keywords": [
+    "version-control",
+    "git",
+    "vcs",
+    "groot",
+    "cli",
+    "branching",
+    "merging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "diff": "^8.0.2",
+    "micromatch": "^4.0.8"
+  }
+}
